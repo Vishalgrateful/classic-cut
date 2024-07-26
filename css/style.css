@@ -315,6 +315,9 @@ header.hero p {
   color: var(--primary);
   border: 1px solid var(--primary);
 }
+.btn-primary:link {
+  text-decoration: none;
+}
 .btn-secondary {
   background: var(--secondary);
   color: var(--heaven);
@@ -324,7 +327,9 @@ header.hero p {
   color: var(--secondary);
   border: 1px solid var(--secondary);
 }
-
+.btn-secondary:link {
+  text-decoration: none;
+}
 header.hero button:first-child {
   margin-right: 0.5rem;
 }
